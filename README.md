@@ -38,7 +38,7 @@ Log4j 由三个重要的组件构成：
 - maven 工程中引入依赖
 ```
 <dependency>
-    <groupId>com.tencentcloud.cls</groupId>
+    <groupId>com.tencentcloudapi.cls</groupId>
     <artifactId>tencentcloud-cls-log4j-appender</artifactId>
     <version>1.0.1</version>
 </dependency>
