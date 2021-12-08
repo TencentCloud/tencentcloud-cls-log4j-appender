@@ -1,8 +1,8 @@
-package com.tencentcloud.cls;
+package com.tencentcloudapi.cls;
 
-import com.tencentcloud.cls.producer.Callback;
-import com.tencentcloud.cls.producer.Result;
-import com.tencentcloud.cls.producer.common.LogItem;
+import com.tencentcloudapi.cls.producer.Callback;
+import com.tencentcloudapi.cls.producer.Result;
+import com.tencentcloudapi.cls.producer.common.LogItem;
 import org.apache.log4j.helpers.LogLog;
 
 /**

@@ -1,11 +1,11 @@
-package com.tencentcloud.cls;
+package com.tencentcloudapi.cls;
 
-import com.tencentcloud.cls.producer.AsyncProducerClient;
-import com.tencentcloud.cls.producer.AsyncProducerConfig;
-import com.tencentcloud.cls.producer.common.LogContent;
-import com.tencentcloud.cls.producer.common.LogItem;
-import com.tencentcloud.cls.producer.errors.ProducerException;
-import com.tencentcloud.cls.producer.util.NetworkUtils;
+import com.tencentcloudapi.cls.producer.AsyncProducerClient;
+import com.tencentcloudapi.cls.producer.AsyncProducerConfig;
+import com.tencentcloudapi.cls.producer.common.LogContent;
+import com.tencentcloudapi.cls.producer.common.LogItem;
+import com.tencentcloudapi.cls.producer.errors.ProducerException;
+import com.tencentcloudapi.cls.producer.util.NetworkUtils;
 import org.apache.log4j.AppenderSkeleton;
 import org.apache.log4j.spi.LoggingEvent;
 import org.joda.time.DateTime;
