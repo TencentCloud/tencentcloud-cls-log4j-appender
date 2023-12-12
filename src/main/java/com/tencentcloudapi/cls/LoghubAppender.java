@@ -290,8 +290,7 @@ public class LoghubAppender extends AppenderSkeleton {
 
     @Override
     protected void append(LoggingEvent loggingEvent) {
-        int ts = (int) (System.currentTimeMillis() / 1000);
-        LogItem logItem = new LogItem(ts);
+        LogItem logItem = new LogItem(loggingEvent.getTimeStamp());
         DateTime dateTime = new DateTime(loggingEvent.getTimeStamp());
         logItem.PushBack("time", dateTime.toString(formatter));
         logItem.PushBack(new LogContent("level", loggingEvent.getLevel().toString()));

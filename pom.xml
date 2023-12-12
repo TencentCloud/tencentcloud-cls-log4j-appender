@@ -6,7 +6,7 @@
 
   <groupId>com.tencentcloudapi.cls</groupId>
   <artifactId>tencentcloud-cls-log4j-appender</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
 
   <name>tencentcloud-cls-log4j-appender</name>
   <!-- FIXME change it to the project's website -->
@@ -39,9 +39,14 @@
       <version>2.9.9</version>
     </dependency>
     <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.4.8</version>
+    </dependency>
+    <dependency>
       <groupId>com.tencentcloudapi.cls</groupId>
       <artifactId>tencentcloud-cls-sdk-java</artifactId>
-      <version>1.0.2</version>
+      <version>1.0.15</version>
     </dependency>
   </dependencies>
 
